@@ -21,13 +21,16 @@ export default function Header(){
              <nav className=' w-120 lg:w-[120%] bg-red-800 p-3 flex items-center justify-between  '> 
                <div>
                      <h1 className='text-white' >envatomarket</h1>
+                     <div className='lg:hidden'> 
+                        <a  className='hover:text-red-900'
+                           onClick={returnToMenu}
+                         >Home</a>
+
+                     </div>
                </div>
+                   
                 
-               <div>
-                    <button className='w-30 bg-green-600 h-7 text-white rm-10  ' >
-                         Buy now
-                    </button>
-               </div>
+             
                  
              </nav>
 
